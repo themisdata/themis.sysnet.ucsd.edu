@@ -1,8 +1,31 @@
-<html>
-  <head>
-    <title>Under Construction</title>
-  </head>
-  <body>
-    <h1>Under Construction</h1>
-  </body>
-</html>
+---
+layout: default
+---
+
+<h1>About</h1>
+<p>Themis is a staged, pipeline-oriented data processing framework designed
+  for building data processing systems with a high degree of per-node
+  efficiency.</p>
+
+<p>Systems built on Themis hold
+  four <a href="http://www.sortbenchmark.org">large-scale sorting records</a>
+  as of 2012:</p>
+<ul>
+  <li>Indy GraySort: TritonSort</li>
+  <li>Indy 100GB JouleSort: TritonSort</li>
+  <li>Daytona GraySort: ThemisMR</li>
+  <li>Daytona 100GB JouleSort: ThemisMR</li>
+</ul>
+
+<h1>Systems</h1>
+<h2>ThemisMR: An I/O-Efficient MapReduce</h2>
+<p>ThemisMR is a MapReduce implementation architected for a high degree of
+  per-node efficiency.  It achieves this high performance by reading and
+  writing each record to disk exactly twice, which is the minimum amount
+  possible for data sets that cannot fit in main memory.</p>
+
+<h2>TritonSort: A Balanced Large-Scale Sorting System</h2>
+<p>TritonSort is case study in building balanced computing systems,
+  specifically data-intensive scalable computing (DISC) systems. TritonSort
+  is a staged, pipeline-oriented sorting system designed to process data with
+  a very high degree of per-node efficiency.</p>

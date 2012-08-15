@@ -1,0 +1,15 @@
+<html>
+  {% include header.html %}
+  <body>
+    <div id="wrapper" class="container_12">
+    {% include head_div.html %}
+    <div id="body_div" class="grid_8">
+      {{ content }}
+    </div>
+    <div id="sidebar" class="grid_4">
+      {% include sidebar.html %}
+    </div>
+    <div class="clear"/>
+    </div>
+  </body>
+</html>

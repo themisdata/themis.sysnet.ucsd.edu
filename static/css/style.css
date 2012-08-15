@@ -1,0 +1,120 @@
+body {
+    background: #eeeeee;
+    margin-top: 0px;
+    font-family: Corbel, "Trebuchet MS", Verdana, Arial, Sans-Serif;
+}
+
+ul li {
+    list-style: square;
+    list-style-position: inside;
+}
+
+div#wrapper {
+    background: #ffffff;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+div#head_div {
+    background: #ffffff;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 940px;
+}
+
+div#head_div h1 {
+    font-size: 40px;
+    line-height: 40px;
+    color: #5555bb;
+    margin-bottom: 0;
+}
+
+div#head_div h2 {
+    margin-top: 0;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+div#nav {
+    background: #aaaaff;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    width: 940px;
+    height: 30px;
+}
+
+div#nav ul li {
+    display: block;
+    float: left;
+    margin: auto 0;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    list-style: none;
+}
+
+div#nav ul li a {
+    text-decoration: none;
+    color: #444444;
+}
+
+div#nav ul li:hover {
+    background: #eeeeee;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background: #fefefe;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+div#sidebar div.spacer {
+    margin-top: 20px;
+}
+
+div#body_div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 579px;
+    border-right: 1px solid #dddddd;
+}
+
+h1 {
+    line-height: 50px;
+    font-size: 30px;
+}
+
+h2 {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+h3 {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+div#body_div p {
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+
+div#sidebar {
+    width: 260px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}

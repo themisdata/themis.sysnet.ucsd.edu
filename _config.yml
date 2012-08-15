@@ -1,0 +1,7 @@
+system: Themis
+tagline: High-Performance Data-Intensive Computing
+
+auto: true
+server: true
+pygments: true
+future: false
