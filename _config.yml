@@ -1,5 +1,5 @@
 system: Themis
-tagline: High-Performance Data-Intensive Computing
+tagline: I/O-Efficient MapReduce
 
 auto: true
 server: true
